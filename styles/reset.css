@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: #fff;
+    font-family: 'Lato', serif;
+    color: #333;
+}
+.container {
+    max-width: 1369px;
+    padding-inline: 1rem;
+    margin: 0 auto;
+}
+

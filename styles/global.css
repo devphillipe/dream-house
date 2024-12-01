@@ -1,0 +1,158 @@
+.container {
+    margin-top: 8.4375rem;
+    display: flex;
+    gap: 43px;
+}
+    /* Section - CONTENT */
+.content {
+    max-width: 38rem;
+    max-height: 51.5625rem;
+    display: flex;
+    flex-direction: column;
+}
+.content div {
+    max-width: 37.5625rem;
+    max-height: 23.375rem;
+}
+.content h1 {
+    margin-block: 24px;
+    font-size: 2.875rem;
+    font-weight: 700;
+    line-height: 66px; /* 117.857% */
+    letter-spacing: 0.56px;
+}
+.content p {
+    width: 566px;
+    height: 128px;
+    color: #333;
+    font-size: 1.5rem;
+    line-height: 32px; /* 133.333% */
+}
+.content a {
+    background-color: #333;
+    width: 13.875rem;
+    height: 4.125rem;
+    border-radius: 40px;
+    padding: 24px 56px;
+
+    margin-top: 24px;
+    margin-bottom: 7.1875rem;
+
+    color: #FFF;
+    font-size: 1.375rem;
+    line-height: 18px; /* 81.818% */
+}
+
+    /* Section - MAIN-CARDS */
+
+.cards {
+    display: flex;
+    gap: 32px;
+    width: 578px;
+    height: 161px;
+}
+
+.contents {
+    width: 17.0625rem;
+    height: 10.0625rem;
+    display: flex;
+    padding: 24px 28px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 24px;
+    background: #F4F4F4;
+}
+.contents span {
+    font-size: 24px;
+    font-weight: 700;
+    width: 73px;
+    height: 73px;
+}
+.contents p {
+    width: 221px;
+    height: 76px;
+    font-size: 14px;
+}
+.contents-like {
+    border-radius: 24px;
+    background: #C6D9E1;
+    width: 17.0625rem;
+    height: 10.0625rem;
+    display: flex;
+    padding: 24px 28px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contents-like span {
+    font-size: 24px;
+    font-weight: 700;
+    width: 73px;
+    height: 73px;
+}
+.contents-like p {
+    width: 221px;
+    height: 76px;
+    font-size: 14px;
+}
+
+.contents-img {
+    width: 581px;
+    height: 145px;
+    margin-top: 32px;
+    border-radius: 24px;
+    background: #F4F4F4;
+    gap: 32px;
+    padding: 16px 24px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.content-house {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 307px;
+    height: 103px;
+}
+
+.content-house span {
+    font-size: 24px;
+    font-weight: 700;
+    width: 73px;
+    height: 73px;
+}
+
+.content-house p {
+    width: 307px;
+    height: 113px;
+    font-size: 12px;
+}
+
+.img {
+    width: 188px;
+    height: 113px;
+}
+
+    /* HERO - IMAGE */
+    
+.hero-image {
+    width: 725px;
+    height: 905px;
+    position: relative;
+}
+
+.house {
+    width: 725px;
+    height: 822px;
+}
+
+.logo {
+    position: absolute;
+    z-index: 1;
+    top: -83px;
+    left: 280px;
+
+
+}
